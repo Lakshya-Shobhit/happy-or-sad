@@ -99,7 +99,7 @@ def main():
     logger.info('Entring main')
     try:
         params = load_params('params.yaml')
-        max_features = params['feature_engineering']['max_fatures']
+        max_features = params['feature_engineering']['max_features']
         train_data = load_data('./data/interim/train_processed.csv')
         test_data = load_data('./data/interim/test_processed.csv')
         # Aply Bag of Words
