@@ -6,7 +6,7 @@ import logging
 
 
 # logging configuration
-logger = logging.getLogger('data_preprcessing')
+logger = logging.getLogger('feature_engineering')
 logger.setLevel('DEBUG')
 console_handler = logging.StreamHandler()
 console_handler.setLevel('DEBUG')
